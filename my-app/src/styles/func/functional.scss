@@ -1,0 +1,13 @@
+$dark-green: #609f99;
+$light-green: #eef7f6;
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin sz($w: $w, $h: $w){
+    width: $w;
+    height: $h;
+}
