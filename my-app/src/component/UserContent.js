@@ -5,7 +5,7 @@ const UserContent = ({ data, imgArr, myProps }) => {
 
   return (
     <div className="user-content">
-      { data.map((item,index)=>{
+      { data.map((item)=>{
         const addArray = [ item.level, item.role, ...item.languages, ...item.tools ]
 
         return (

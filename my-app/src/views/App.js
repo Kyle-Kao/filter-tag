@@ -51,6 +51,7 @@ function App() {
     filterArray.forEach(filterItem=>{
       setFilterData(dataWithTags.filter(item=>{return item.tags.includes(filterItem)}))
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[filterArray]) 
 
   return (
